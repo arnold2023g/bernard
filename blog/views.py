@@ -5,6 +5,3 @@ def index(request):
 
 def privet(request):
     return render(request, "blog/arsen.html")
-
-def categ(request):
-    return render(request, "blog/categories.html")
